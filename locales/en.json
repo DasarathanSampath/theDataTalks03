@@ -1,0 +1,25 @@
+{
+  "links": {
+    "politics": "Politics",
+    "economics": "Economics",
+    "others": "Others",
+    "education": "Education",
+    "head": "theDataTalks",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact Us",
+    "disclaimer": "Disclaimer",
+    "privacy": "Privacy Policy",
+    "slogan": "Don't be in delusion, understand the reality from historical data | Copyright © 2020 theDataTalks",
+    "english": "English",
+    "tamil": "Tamil"
+  },
+  "home": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  }
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "url": "/about",
+    "_name": "_065236e0"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "url": "/contact",
+    "_name": "_85c6599a"
+  },
+  {
+    "name": "disclaimer",
+    "path": "/disclaimer",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\disclaimer.vue",
+    "chunkName": "pages/disclaimer",
+    "url": "/disclaimer",
+    "_name": "_da5f7f50"
+  },
+  {
+    "name": "economics",
+    "path": "/economics",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\economics\\\\index.vue",
+    "chunkName": "pages/economics/index",
+    "url": "/economics",
+    "_name": "_c3dad21e"
+  },
+  {
+    "name": "education",
+    "path": "/education",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\education\\\\index.vue",
+    "chunkName": "pages/education/index",
+    "url": "/education",
+    "_name": "_92e4d7b2"
+  },
+  {
+    "name": "others",
+    "path": "/others",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\others\\\\index.vue",
+    "chunkName": "pages/others/index",
+    "url": "/others",
+    "_name": "_02e1883c"
+  },
+  {
+    "name": "politics",
+    "path": "/politics",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\politics\\\\index.vue",
+    "chunkName": "pages/politics/index",
+    "url": "/politics",
+    "_name": "_7a5b8664"
+  },
+  {
+    "name": "privacy",
+    "path": "/privacy",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\privacy.vue",
+    "chunkName": "pages/privacy",
+    "url": "/privacy",
+    "_name": "_1448de9b"
+  },
+  {
+    "name": "custom-economics-compound-interest",
+    "path": "/custom/economics/compound-interest",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\custom\\\\economics\\\\compound-interest.vue",
+    "chunkName": "pages/custom/economics/compound-interest",
+    "url": "/custom/economics/compound-interest",
+    "_name": "_ca56f548"
+  },
+  {
+    "name": "custom-economics-recurring-deposit",
+    "path": "/custom/economics/recurring-deposit",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\custom\\\\economics\\\\recurring-deposit.vue",
+    "chunkName": "pages/custom/economics/recurring-deposit",
+    "url": "/custom/economics/recurring-deposit",
+    "_name": "_e411e204"
+  },
+  {
+    "name": "economics-slug",
+    "path": "/economics/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\economics\\\\_slug.vue",
+    "chunkName": "pages/economics/_slug",
+    "_name": "_c74814ae"
+  },
+  {
+    "name": "education-slug",
+    "path": "/education/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\education\\\\_slug.vue",
+    "chunkName": "pages/education/_slug",
+    "_name": "_96521a42"
+  },
+  {
+    "name": "others-slug",
+    "path": "/others/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\others\\\\_slug.vue",
+    "chunkName": "pages/others/_slug",
+    "_name": "_064ecacc"
+  },
+  {
+    "name": "politics-slug",
+    "path": "/politics/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\politics\\\\_slug.vue",
+    "chunkName": "pages/politics/_slug",
+    "_name": "_78a4e51c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "url": "/",
+    "_name": "_260a11a5"
+  },
+  {
+    "name": "lang",
+    "path": "/:lang",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\index.vue",
+    "chunkName": "pages/_lang/index",
+    "_name": "_7bf17262"
+  },
+  {
+    "name": "lang-about",
+    "path": "/:lang/about",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\about.vue",
+    "chunkName": "pages/_lang/about",
+    "_name": "_5c39979d"
+  },
+  {
+    "name": "lang-contact",
+    "path": "/:lang/contact",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\contact.vue",
+    "chunkName": "pages/_lang/contact",
+    "_name": "_36aef8b0"
+  },
+  {
+    "name": "lang-disclaimer",
+    "path": "/:lang/disclaimer",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\disclaimer.vue",
+    "chunkName": "pages/_lang/disclaimer",
+    "_name": "_2dee648a"
+  },
+  {
+    "name": "lang-economics",
+    "path": "/:lang/economics",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\economics\\\\index.vue",
+    "chunkName": "pages/_lang/economics/index",
+    "_name": "_a41363d8"
+  },
+  {
+    "name": "lang-education",
+    "path": "/:lang/education",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\education\\\\index.vue",
+    "chunkName": "pages/_lang/education/index",
+    "_name": "_731d696c"
+  },
+  {
+    "name": "lang-others",
+    "path": "/:lang/others",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\others\\\\index.vue",
+    "chunkName": "pages/_lang/others/index",
+    "_name": "_c4c6e0c2"
+  },
+  {
+    "name": "lang-politics",
+    "path": "/:lang/politics",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\politics\\\\index.vue",
+    "chunkName": "pages/_lang/politics/index",
+    "_name": "_e93a423e"
+  },
+  {
+    "name": "lang-privacy",
+    "path": "/:lang/privacy",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\privacy.vue",
+    "chunkName": "pages/_lang/privacy",
+    "_name": "_e449f7d0"
+  },
+  {
+    "name": "lang-custom-economics-compound-interest",
+    "path": "/:lang/custom/economics/compound-interest",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\custom\\\\economics\\\\compound-interest.vue",
+    "chunkName": "pages/_lang/custom/economics/compound-interest",
+    "_name": "_28bf6602"
+  },
+  {
+    "name": "lang-custom-economics-recurring-deposit",
+    "path": "/:lang/custom/economics/recurring-deposit",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\custom\\\\economics\\\\recurring-deposit.vue",
+    "chunkName": "pages/_lang/custom/economics/recurring-deposit",
+    "_name": "_427a52be"
+  },
+  {
+    "name": "lang-economics-slug",
+    "path": "/:lang/economics/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\economics\\\\_slug.vue",
+    "chunkName": "pages/_lang/economics/_slug",
+    "_name": "_a780a668"
+  },
+  {
+    "name": "lang-education-slug",
+    "path": "/:lang/education/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\education\\\\_slug.vue",
+    "chunkName": "pages/_lang/education/_slug",
+    "_name": "_768aabfc"
+  },
+  {
+    "name": "lang-others-slug",
+    "path": "/:lang/others/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\others\\\\_slug.vue",
+    "chunkName": "pages/_lang/others/_slug",
+    "_name": "_c8342352"
+  },
+  {
+    "name": "lang-politics-slug",
+    "path": "/:lang/politics/:slug",
+    "component": "C:\\\\Users\\\\Dasarathan\\\\projects\\\\thedatatalks03\\\\pages\\\\_lang\\\\politics\\\\_slug.vue",
+    "chunkName": "pages/_lang/politics/_slug",
+    "_name": "_eca784ce"
+  }
+]

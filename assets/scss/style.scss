@@ -1,0 +1,183 @@
+.cardThumbnail {
+  transition: all ease .75s;
+  opacity: .7;
+  padding: 0.2rem 0rem 0.2rem 0rem;
+  &[lazy='loaded'] {
+    opacity: 1;
+  }
+}
+
+.layoutGrid{
+  grid-template-columns: 1fr 6fr 1fr;
+  display: grid;
+  @media only screen and (max-width: 1366px){
+    grid-template-columns: 0fr 6fr 2fr;
+  }
+  @media only screen and (max-width: 800px){
+    grid-template-columns: 0fr 8fr 0fr;
+    /* grid-template-columns: min-content 1fr min-content; */
+  }
+}
+
+.blogCardH{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  margin: 0.1rem;
+  transition: 0.3s;
+  &__image {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    @media only screen and (max-width: 800px){
+      width: 30%;
+      float: left;
+    }
+  }
+  &__text {
+    display: inline-block;
+    width: 50%;
+    @media only screen and (max-width: 800px){
+      display: inline;
+    }
+  }
+}
+
+.blogCardV{
+  float: left;
+  width: 100%;
+  
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.blogCardV2{
+  float: left;
+  width: 100%;
+  
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+/*   @media only screen and (max-width: 640px){
+    grid-template-rows: 1.2fr 0.25fr;
+  } */
+  
+}
+
+.blogList{
+  list-style: none;
+  margin: 0rem;
+}
+.blogCard{
+  text-align: left;
+  text-decoration: none;
+  margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  &__title{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #030303;
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem;    
+  }
+  &__desc{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #031801;
+    font-style: italic;
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  }
+  &__date{
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #031801;
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+  }
+}
+
+.nuxtLink{
+  text-decoration: none;
+  margin: 0rem;
+}
+
+.logoImg{
+  padding: 0px 0px 0px 0px;
+  margin: 0rem;
+  float: left;
+  width: 4rem;
+  margin-left: 1rem;
+  @media only screen and (max-width: 800px){
+    margin-left: 0rem;
+  }
+}
+
+.blogs_image {
+  width: 50%;
+  @media only screen and (max-width: 800px){
+    width: 100%;
+  }
+}
+.lowfont{
+  font-size: 1rem;
+  @media only screen and (max-width: 800px){
+  font-size: 0.45rem;    
+  }
+}
+
+.cheiyul{
+  font-size: 1rem;
+  @media only screen and (max-width: 800px){
+  font-size: 0.7rem;    
+  }
+}
+
+.blogContent{
+  margin-left:10rem;
+  margin-right: 6rem;
+  text-align: justify;
+  @media only screen and (max-width: 1024px){
+    margin-left:6rem;
+    margin-right: 3rem;  
+  }
+  @media only screen and (max-width: 800px){
+    margin-left:0rem;
+    margin-right: 1rem;  
+  }
+  @media only screen and (max-width: 640px){
+    margin-left:0rem;
+    margin-right: 0rem;  
+  }
+}
+.blogLayout{
+  display: inline;
+  display:grid;
+  grid-template-columns: 3.5fr 3fr 1.5fr;
+  grid-column-gap: 0rem;
+  @media only screen and (max-width: 1366px){
+    grid-template-columns: 4fr 2fr;
+  }
+  @media only screen and (max-width: 800px){
+    grid-template-columns: 4fr 2fr;
+  }
+  @media only screen and (max-width: 640px){
+    grid-template-columns: 6fr;
+  }
+}
+
+
+.mdImageRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mdImageCol {
+  float: left;
+  width: 46%;
+  padding: 5px;
+  @media only screen and (max-width: 640px){
+    width: 100%;
+  }
+}
+
+.codeBlocks{
+  text-align: justify;
+  font-size: 0.6rem;
+  flex-wrap: wrap;
+}

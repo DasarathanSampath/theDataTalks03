@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,560, 420" width="280" height="210" font-family="“Helvetica Neue, sans-serif" text-anchor="middle">
+
+  <g >
+  <line x1="250" y1="100" x2="250" y2="300" style="stroke:rgb(125,0,0);stroke-width:2" />
+  <line x1="150" y1="210" x2="350" y2="210" style="stroke:rgb(125,0,0);stroke-width:2" />
+
+  <text x="250" y="50" fill="black" style="stroke:rgb(64,64,64);stroke-width:1.5; font-size: 25px;">COMMUNITARIANISM</text>
+  <text x="250" y="75" fill="black" style="stroke:rgb(64,64,64);stroke-width:1; font-size: 25px;">(Authoritative)</text>
+
+  <text x="250" y="350" fill="black" style="stroke:rgb(64,64,64);stroke-width:1; font-size: 25px;">INDIVIDUALISM</text>
+  <text x="250" y="375" fill="black" style="stroke:rgb(64,64,64);stroke-width:1; font-size: 25px;">(Self-managed/</text>
+  <text x="250" y="400" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">Self-governed society)</text>
+
+  <text x="70" y="175" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">LEFTISM</text>
+  <text x="70" y="200" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">(Communism/</text>
+  <text x="70" y="225" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">Collectivism/</text>
+  <text x="70" y="250" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">Equality)</text>
+
+  <text x="460" y="175" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">RIGHTISM</text>
+  <text x="460" y="200" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">(Conservative/</text>
+  <text x="460" y="225" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">Cultural/</text>
+  <text x="460" y="250" fill="black" style="stroke:rgb(64,64,64);stroke-width:1;font-size: 25px;">Efficiency)</text>
+
+  <circle cx="325" cy="125" r="30" stroke="#0066ff" stroke-width="2" fill="#0066ff" />
+  <text x="325" y="135" fill="black" style="stroke: white;stroke-width:2; font-size: 30px;">I</text>
+  <circle cx="175" cy="125" r="30" stroke="#0066ff" stroke-width="2" fill="#0066ff" />
+  <text x="175" y="135" fill="black" style="stroke:white;stroke-width:2; font-size: 30px;">II</text>
+  <circle cx="175" cy="275" r="30" stroke="#0066ff" stroke-width="2" fill="#0066ff" />
+  <text x="175" y="285" fill="black" style="stroke:white;stroke-width:2; font-size: 30px;">III</text>
+  <circle cx="325" cy="275" r="30" stroke="#0066ff" stroke-width="2" fill="#0066ff" />
+  <text x="325" y="285" fill="black" style="stroke:white;stroke-width:2; font-size: 30px;">IV</text>
+  </g>
+ 
+</svg>
