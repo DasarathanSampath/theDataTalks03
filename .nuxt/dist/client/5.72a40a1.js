@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{275:function(n,o,e){"use strict";e.r(o),o.default="---\r\ndate: 17 Feb 2019\r\ndesc: Blogs of economics\r\nname: 'economics'\r\nnoMainImage: True\r\ntitle: Blogs of economics\r\naltLang: true\r\n---\r\n\r\nThe website contains information about politics, economics, education & others.\r\n\r\n<style>\r\n\r\n</style>"}}]);

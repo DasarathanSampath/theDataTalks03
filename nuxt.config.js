@@ -1,4 +1,5 @@
 const baseUrl = 'http://thedatatalks.in';
+
 export default {
   mode: 'universal',
   head: {
@@ -27,6 +28,7 @@ export default {
   generate: {
     routes: ['/', '/about', '/ta', '/ta/about']
   },
+  /* server:['~/server/index.js'], */
   css: [
     '~/assets/scss/main.scss',
     '~/assets/scss/style.scss'

@@ -19,5 +19,6 @@ export default [
 'tamil-nadu-2001-legislative-election',
 'tamil-nadu-2006-legislative-election',
 'tamil-nadu-2011-legislative-election',
-'tamil-nadu-2016-legislative-election'
+'tamil-nadu-2016-legislative-election',
+'india-2019-parliamentary-election'
 ]
