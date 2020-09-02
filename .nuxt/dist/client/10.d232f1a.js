@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{292:function(n,e,r){"use strict";r.r(e),e.default="---\r\ndate: 17 Feb 2019\r\ndesc: Other blogs\r\nname: 'others'\r\nnoMainImage: True\r\ntitle: Other blogs\r\naltLang: true\r\n---\r\n\r\nThe website contains information about politics, economics, education & others.\r\n\r\n<style>\r\n\r\n</style>"}}]);
