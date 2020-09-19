@@ -17,6 +17,7 @@ import nuxt_plugin_workbox_f692d59e from 'nuxt_plugin_workbox_f692d59e' // Sourc
 import nuxt_plugin_nuxticons_5caad5da from 'nuxt_plugin_nuxticons_5caad5da' // Source: .\\nuxt-icons.js (mode: 'all')
 import nuxt_plugin_templatespluginfd9384be_4fe4022e from 'nuxt_plugin_templatespluginfd9384be_4fe4022e' // Source: .\\templates.plugin.fd9384be.js (mode: 'all')
 import nuxt_plugin_vuesocialsharingplugin_4a1d5fce from 'nuxt_plugin_vuesocialsharingplugin_4a1d5fce' // Source: .\\vue-social-sharing-plugin.js (mode: 'all')
+import nuxt_plugin_googleanalytics_6bcb7fb1 from 'nuxt_plugin_googleanalytics_6bcb7fb1' // Source: .\\google-analytics.js (mode: 'client')
 import nuxt_plugin_i18n_1fba523a from 'nuxt_plugin_i18n_1fba523a' // Source: ..\\plugins\\i18n.js (mode: 'all')
 import nuxt_plugin_globalComponents_97da3ae2 from 'nuxt_plugin_globalComponents_97da3ae2' // Source: ..\\plugins\\globalComponents (mode: 'all')
 import nuxt_plugin_lazyload_af447860 from 'nuxt_plugin_lazyload_af447860' // Source: ..\\plugins\\lazyload (mode: 'all')
@@ -74,7 +75,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"thedatatalks","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"https:\u002F\u002Fnuxtjs.org\u002Fexamples\u002Fi18n"},{"name":"robots","content":"index, follow"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"thedatatalks"},{"hid":"theme-color","name":"theme-color","content":"cyan"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"thedatatalks"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"thedatatalks"},{"hid":"og:description","name":"og:description","property":"og:description","content":"https:\u002F\u002Fnuxtjs.org\u002Fexamples\u002Fi18n"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Arima+Madurai&display=swap"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Pavanam&display=swap","rel":"stylesheet"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.a4d0906b.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64x64.a9d681.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512x512.a9d681.png","sizes":"512x512"}],"script":[],"style":[],"htmlAttrs":{"lang":"en"}},
+    head: {"title":"thedatatalks","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"https:\u002F\u002Fnuxtjs.org\u002Fexamples\u002Fi18n"},{"name":"robots","content":"index, follow"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"thedatatalks"},{"hid":"theme-color","name":"theme-color","content":"cyan"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"thedatatalks"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"thedatatalks"},{"hid":"og:description","name":"og:description","property":"og:description","content":"https:\u002F\u002Fnuxtjs.org\u002Fexamples\u002Fi18n"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Arima+Madurai&display=swap"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss2?family=Pavanam&display=swap","rel":"stylesheet"},{"rel":"preconnect","href":"https:\u002F\u002Fwww.google-analytics.com"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.a4d0906b.json"},{"rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64x64.a9d681.png"},{"rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512x512.a9d681.png","sizes":"512x512"}],"script":[],"style":[],"htmlAttrs":{"lang":"en"}},
 
     store,
     router,
@@ -217,6 +218,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_vuesocialsharingplugin_4a1d5fce === 'function') {
     await nuxt_plugin_vuesocialsharingplugin_4a1d5fce(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_googleanalytics_6bcb7fb1 === 'function') {
+    await nuxt_plugin_googleanalytics_6bcb7fb1(app.context, inject)
   }
 
   if (typeof nuxt_plugin_i18n_1fba523a === 'function') {

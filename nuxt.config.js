@@ -13,7 +13,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap"},
-      {href:"https://fonts.googleapis.com/css2?family=Pavanam&display=swap", rel: "stylesheet"}
+      {href:"https://fonts.googleapis.com/css2?family=Pavanam&display=swap", rel: "stylesheet"},
+      { rel: 'preconnect', href: 'https://www.google-analytics.com' }
     ],
     script: [ ]
   },
@@ -24,9 +25,9 @@ export default {
   router: {
     middleware: 'i18n'
   },
-  plugins: ['~/plugins/i18n.js', '~/plugins/globalComponents', '~/plugins/lazyload', {src: '~plugins/social.js', ssr: true}, { src: '~plugins/ga.js', ssr: false }],
+  plugins: ['~/plugins/i18n.js', '~/plugins/globalComponents', '~/plugins/lazyload', {src: '~plugins/social.js', ssr: true}, { src: '~plugins/ga.js', mode: 'client' }],
   generate: {
-    routes: ['/', '/about', '/ta', '/ta/about']
+    
   },
   /* server:['~/server/index.js'], */
   css: [
@@ -36,40 +37,16 @@ export default {
   modules: [
     '@nuxtjs/pwa', '@nuxtjs/sitemap',
     'vue-social-sharing/nuxt', ['nuxt-fontawesome', {imports: [{set: '@fortawesome/free-solid-svg-icons', icons: ['fas']}, {set:'@fortawesome/free-brands-svg-icons', icons: ['fab']}]},
-    ['@nuxtjs/google-gtag', { /* module options */ }], ['@nuxtjs/google-tag-manager', { }], '@nuxtjs/google-adsense'
+    ['@nuxtjs/google-gtag', { /* module options */ }], ['@nuxtjs/google-tag-manager', { }], ['@nuxtjs/google-adsense', {id: 'ca-pub-3042269102042405'}]
   ]
     /* ['nuxt-i18n', I18N], */
   ],
   buildModules: [
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics'
   ],
-  build: {
-     extend (config, ctx) {
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-          options: {
-            fix: true
-          }
-        })
-      }
-      config.module.rules.push({
-        test: /\.md$/,
-        use: ['raw-loader']
-      })
-      config.module.rules
-        .filter(r => r.test.toString().includes("svg"))
-        .forEach(r => {
-          r.test = /\.(png|jpe?g|gif|svg)$/;
-       })
-      config.module.rules.push({
-        test: /\.svg$/,
-        loader: "vue-svg-loader"
-      })
-    }
+  googleAnalytics: {
+    id: 'UA-144761111-2', // Used as fallback if no runtime config is provided
   },
   robots: {
     UserAgent: '*',
@@ -78,8 +55,22 @@ export default {
   'google-adsense': {
     id: 'ca-pub-3042269102042405'
   },
+  'google-tag-manager': {
+    id: 'GTM-57HSHXZ', // Used as fallback if no runtime config is provided
+  },
+
+  publicRuntimeConfig: {
+    'google-tag-manager': {
+      id: process.env.GOOGLE_TAG_MANAGER_ID
+    },
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  },
   'google-gtag':{
     id: 'UA-144761111-2', // required
+    enabled: true,
+    //pageTracking: true,
     config:{
       // this are the config options for `gtag
       // check out official docs: https://developers.google.com/analytics/devguides/collection/gtagjs/
@@ -225,5 +216,33 @@ export default {
         ]
       }
     ]
-  }
+  },
+  build: {
+    extend (config, ctx) {
+     if (ctx.isDev && ctx.isClient) {
+       config.module.rules.push({
+         enforce: 'pre',
+         test: /\.(js|vue)$/,
+         loader: 'eslint-loader',
+         exclude: /(node_modules)/,
+         options: {
+           fix: true
+         }
+       })
+     }
+     config.module.rules.push({
+       test: /\.md$/,
+       use: ['raw-loader']
+     })
+     config.module.rules
+       .filter(r => r.test.toString().includes("svg"))
+       .forEach(r => {
+         r.test = /\.(png|jpe?g|gif|svg)$/;
+      })
+     config.module.rules.push({
+       test: /\.svg$/,
+       loader: "vue-svg-loader"
+     })
+   }
+ }
 }

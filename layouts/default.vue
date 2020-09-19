@@ -26,6 +26,9 @@ export default {
     TheHeader,
     TheFooter
   },
+  asyncData ({ $config: { id } }) {
+    return fetch(`${id}`)
+  },
   data () {
     return {
 
