@@ -7,6 +7,13 @@ noMainImage: True
 title: " NuxtJs செயலிகள், Nginx உடன் PM2"
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 இந்த கட்டுரையில் குறிப்பிடப்பட்டுள்ள வடிவமைப்புகள்(Configurations) மற்றும் செயற்பாடுகள்(settings) Ubuntu இயக்கதளத்தில்(Operating system) Node.js வழங்கியுடன்(Server) சோதிக்கப்பட்டவை. 
 Nginx மறுதலை பதிலியாக(reverse proxy) பயன்படுத்தப்படுகிறது மற்றும் PM2 உற்பத்தி செயல்முறை நிர்வாகியாக(production process manager) பயன்படுத்தப்படுகிறது. 

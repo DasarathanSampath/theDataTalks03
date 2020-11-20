@@ -3,7 +3,7 @@
     <TheHeader />
     <div class="layoutGrid">
       <div>
-      <!-- adds by google -->
+        <!-- adds by google -->
       </div>
 
       <div>
@@ -11,7 +11,7 @@
       </div>
 
       <div>
-      <!-- adds by google -->
+        <!-- adds by google -->
       </div>
     </div>
     <TheFooter />

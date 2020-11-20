@@ -13,6 +13,13 @@ title: "Air Pollution data-Telangana, Sanathnagar, Hyderabad"
 trans: 'pm25-tl-hyderabad-sanathnagar'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 Telangana has 6 stations for continuous monitoring of air pollution and
 all are in Hyderabad. This document talks about PM2.5 (Particulate

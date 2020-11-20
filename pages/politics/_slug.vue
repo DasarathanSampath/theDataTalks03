@@ -1,17 +1,19 @@
 <template>
   <div class="blogContent">
     <SocialShare :title="title" :description="description" :name="name" section="politics" />
-    <h1 class="blogCard__title">
-      {{ title }}
-    </h1>
-    <h2 class="blogCard__desc">
-      {{ description }}
-    </h2>
-    <h3 class="blogCard__date">
-      {{ date }}
-    </h3>
-    <!-- eslint-disable-next-line -->
+    <article>
+      <h1 class="blogCard__title">
+        {{ title }}
+      </h1>
+      <h2 class="blogCard__desc">
+        {{ description }}
+      </h2>
+      <h3 class="blogCard__date">
+        {{ date }}
+      </h3>
+      <!-- eslint-disable-next-line -->
     <div v-html="content" />
+    </article>
   </div>
 </template>
 

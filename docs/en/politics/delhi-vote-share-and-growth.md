@@ -13,6 +13,13 @@ title: Legislative assembly - NCT of Delhi
 trans: 'சட்டமன்றம்-வாக்குப்-பங்கு-மற்றும-வளர்ச்சி-டெல்லி'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The below bar chart is a comparison of Vote bank for four major parties
 in Delhi viz., Indian National Congress (INC), Bharatiya Janata Party

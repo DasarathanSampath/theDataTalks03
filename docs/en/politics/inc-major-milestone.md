@@ -12,6 +12,13 @@ title: 'Major milestones of Indian National Congress (INC)'
 trans: 'ஐஎன்சி-முக்கிய-மைல்கற்கள்'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 **INC was in power from 1947-1977, 1980-1989, 1991-1996 & 2004-2014**
 

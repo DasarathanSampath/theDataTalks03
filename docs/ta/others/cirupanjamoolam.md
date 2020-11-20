@@ -8,6 +8,13 @@ author: "கி.சம்பத், காஞ்சிபுரம்"
 title: 'சிறுபஞ்சமூலம் - சங்க இலக்கிய பதினெண்கீழ்க்கணக்கு நூல்'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 இதன் ஆசிரியர் காரியாசன்
 

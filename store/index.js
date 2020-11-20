@@ -12,7 +12,8 @@ export const state = () => ({
       iso: 'ta-IN',
       name: 'தமிழ்'
     }
-  ]
+  ],
+  gaTrackingCodes: 'UA-144761111-2'
 })
 
 export const mutations = {

@@ -3,6 +3,7 @@
   <client-only>
   <div >
     <SocialShare :title="title" :description="description" :name="name" section="economics"/>
+    <article>
     <div class="thisLayout">
       <h1 class="blogCard__title">
         {{ headA1 }}
@@ -42,6 +43,7 @@
     </h3>
       <div v-html="content" />
     </div>
+    </article>
   </div>
   </client-only>
 </template>

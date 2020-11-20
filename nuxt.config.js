@@ -16,7 +16,13 @@ export default {
       {href:"https://fonts.googleapis.com/css2?family=Pavanam&display=swap", rel: "stylesheet"},
       { rel: 'preconnect', href: 'https://www.google-analytics.com' }
     ],
-    script: [ ]
+    script: [
+       /*  {
+          'data-ad-client': 'ca-pub-1234567890',
+          async: true,
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        } */
+      ]
   },
   env: {
     baseUrl
@@ -25,10 +31,15 @@ export default {
   router: {
     middleware: 'i18n'
   },
-  plugins: ['~/plugins/i18n.js', '~/plugins/globalComponents', '~/plugins/lazyload', {src: '~plugins/social.js', ssr: true}, { src: '~plugins/ga.js', mode: 'client' }],
+  plugins: [
+    '~/plugins/i18n.js', '~/plugins/globalComponents', '~/plugins/lazyload', 
+    {src: '~plugins/social.js', ssr: true}, { src: '~plugins/ga.js', mode: 'client' },
+    { src: '~/plugins/vue-google-adsense', ssr: false }
+    /* '~/plugins/google-gtag.js' */
+  ],
   generate: {
     
-  },
+  },  
   /* server:['~/server/index.js'], */
   css: [
     '~/assets/scss/main.scss',
@@ -37,7 +48,8 @@ export default {
   modules: [
     '@nuxtjs/pwa', '@nuxtjs/sitemap',
     'vue-social-sharing/nuxt', ['nuxt-fontawesome', {imports: [{set: '@fortawesome/free-solid-svg-icons', icons: ['fas']}, {set:'@fortawesome/free-brands-svg-icons', icons: ['fab']}]},
-    ['@nuxtjs/google-gtag', { /* module options */ }], ['@nuxtjs/google-tag-manager', { }], ['@nuxtjs/google-adsense', {id: 'ca-pub-3042269102042405'}]
+    ['@nuxtjs/google-gtag', { }], ['@nuxtjs/google-tag-manager', { }],
+    ['@nuxtjs/google-adsense']
   ]
     /* ['nuxt-i18n', I18N], */
   ],
@@ -47,7 +59,13 @@ export default {
   ],
   googleAnalytics: {
     id: 'UA-144761111-2', // Used as fallback if no runtime config is provided
+    dev: true
   },
+  /* publicRuntimeConfig: {
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
+  }, */
   robots: {
     UserAgent: '*',
     Allow: '/'
@@ -55,18 +73,11 @@ export default {
   'google-adsense': {
     id: 'ca-pub-3042269102042405'
   },
+    
   'google-tag-manager': {
     id: 'GTM-57HSHXZ', // Used as fallback if no runtime config is provided
   },
 
-  publicRuntimeConfig: {
-    'google-tag-manager': {
-      id: process.env.GOOGLE_TAG_MANAGER_ID
-    },
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
-  },
   'google-gtag':{
     id: 'UA-144761111-2', // required
     enabled: true,
@@ -199,7 +210,7 @@ export default {
         '/ta/economics/compound-interest',
         '/ta/economics/recurring-deposit',
         '/ta/economics/reinvestment-deposit-scheme',
-        '/ta/others/naaladiyar',
+       '/ta/others/naaladiyar',
         '/ta/others/cirupanjamoolam',
         '/ta/others/gun-powder-chicken',  
         '/ta//others/sponge-cake',

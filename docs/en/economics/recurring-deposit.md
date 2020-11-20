@@ -17,6 +17,14 @@ headA8: Interest Receivable(B)
 headA9: Total Receivable(A+B)
 ---
 
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
+
 For detailed explanation, please refer [Reinvestment Deposit Scheme](http://thedatatalks.in/economics/reinvestment-deposit-scheme)
 
 The total interest receivable from a recurring deposit is calculated as below

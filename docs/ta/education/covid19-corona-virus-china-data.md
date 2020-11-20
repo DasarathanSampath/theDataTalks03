@@ -12,6 +12,13 @@ title: 'சீனா, கோவிட் -19 கொரோனா வைரஸ்'
 trans: 'covid19-corona-virus-china-data'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 **தரவு மூலம்:** <https://www.who.int/>  
 **பதிவிறக்கம் செய்யப்பட்ட தேதி:** 05-Apr-2020  

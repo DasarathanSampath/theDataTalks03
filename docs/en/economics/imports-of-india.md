@@ -12,6 +12,13 @@ title: Imports of India
 trans: 'இந்தியாவின்-இறக்குமதி'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The below bar chart shows the details of import values in USD & INR for
 each years.

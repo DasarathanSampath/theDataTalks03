@@ -13,6 +13,13 @@ trans: இந்தியாவின்-அரசியல்-கூட்ட�
 altLang: false
 
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 Below are the list of political alliances formed in India for a common agenda at various situation.
 

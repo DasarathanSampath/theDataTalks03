@@ -16,6 +16,13 @@ headA7: மொத்த முதலீடு(A)
 headA8: பெறத்தக்க வட்டி(B)
 headA9: பெறத்தக்க மொத்தத் தொகை(A+B)
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 விரிவான விளக்கத்திற்கு, தயவுசெய்து இங்கே [மறு முதலீடு வைப்புத்திட்டம்](http://thedatatalks.in/ta/economics/reinvestment-deposit-scheme) பார்க்கவும்.
 

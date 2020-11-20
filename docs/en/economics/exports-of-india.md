@@ -12,6 +12,13 @@ title: Exports of India
 trans: 'இந்தியாவின்-ஏற்றுமதி'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The below bar chart shows the details of Export values in USD & INR for
 each years.

@@ -14,6 +14,13 @@ title: Analysis on Imports and Exports of India
 trans: 'இந்தியா-இறக்குமதி-ஏற்றுமதி-பகுப்பாய்வு'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 Introduction
 ------------

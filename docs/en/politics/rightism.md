@@ -12,6 +12,13 @@ title: 'Rightism Parties of India'
 trans: 'இந்தியாவின்-வலதுசாரிக்-கட்சிகள்'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 **Right-Wing parties of India:**
 

@@ -12,6 +12,13 @@ title: 'Nifty50 yield & 10-Years Bond yield'
 trans: 'nifty50-10year-bond-yield'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 ------------------------------------------------------------------------
 

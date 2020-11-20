@@ -23,6 +23,7 @@ import nuxt_plugin_globalComponents_97da3ae2 from 'nuxt_plugin_globalComponents_
 import nuxt_plugin_lazyload_af447860 from 'nuxt_plugin_lazyload_af447860' // Source: ..\\plugins\\lazyload (mode: 'all')
 import nuxt_plugin_social_59890973 from 'nuxt_plugin_social_59890973' // Source: ..\\plugins\\social.js (mode: 'all')
 import nuxt_plugin_ga_fb0a2534 from 'nuxt_plugin_ga_fb0a2534' // Source: ..\\plugins\\ga.js (mode: 'client')
+import nuxt_plugin_vuegoogleadsense_3e0b0218 from 'nuxt_plugin_vuegoogleadsense_3e0b0218' // Source: ..\\plugins\\vue-google-adsense (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -242,6 +243,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_ga_fb0a2534 === 'function') {
     await nuxt_plugin_ga_fb0a2534(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_vuegoogleadsense_3e0b0218 === 'function') {
+    await nuxt_plugin_vuegoogleadsense_3e0b0218(app.context, inject)
   }
 
   // Lock enablePreview in context

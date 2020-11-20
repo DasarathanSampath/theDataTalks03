@@ -12,6 +12,13 @@ title: 'Constitution of India'
 trans: 'இந்திய-அரசியலமைப்பு'
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 &nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:2em;"> 15th </span> August 1947, India became independent and the “Constitution of India” (BhāratīyaSaṃvidhāna) was adapted by Constituent assembly of India on 26th Nov 1949. The Constitution of India became effective on 26th Jan 1950, it was the day Dominion of India became Republic of India. Dr. B.R. Ambedkar was the chairman & chief architect for “Constitution of India” - the longest written constitution. The constitution of India disseminates constitutional supremacy and not parliamentary supremacy. Parliament cannot over ride constitution.
 

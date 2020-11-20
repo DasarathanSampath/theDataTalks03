@@ -7,6 +7,13 @@ noMainImage: True
 title: India 2004 Parliamentary election
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The below pie chart shows the number of wons for each political party.  
 

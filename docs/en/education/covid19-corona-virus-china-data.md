@@ -12,6 +12,13 @@ title: 'China Covid-19 Corona virus data'
 trans: 'covid19-corona-virus-china-data'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 **Data Source:** <https://www.who.int/>\
 **Date downloaded:** 05-Apr-2020

@@ -12,6 +12,13 @@ title: Delhi electors and voters details
 trans: டெல்லி-வாக்காளர்கள்-மற்றும்-வாக்கு-செலுத்தியவர்கள்
 altLang: false
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The below bar chart has the details of electors & voters for each
 election years.

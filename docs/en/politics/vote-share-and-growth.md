@@ -12,6 +12,13 @@ title: 'Vote share and growth of national parties'
 trans: 'வாக்குப்-பங்கு-மற்றும-வளர்ச்சி'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The below bar chart is a comparison of Indian National Congress (INC)
 votes against Bharatiya Janata Party (BJP) votes for each election

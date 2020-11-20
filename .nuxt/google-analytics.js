@@ -3,7 +3,7 @@ import VueAnalytics from 'vue-analytics'
 
 export default async (ctx, inject) => {
   const runtimeConfig = ctx.$config && ctx.$config.googleAnalytics || {}
-  const moduleOptions = {"dev":true,"debug":{"sendHitTask":false},"id":"UA-144761111-2"}
+  const moduleOptions = {"dev":true,"debug":{"sendHitTask":true},"id":"UA-144761111-2"}
   const options = {...moduleOptions, ...runtimeConfig}
 
   if (typeof options.asyncID === 'function') {

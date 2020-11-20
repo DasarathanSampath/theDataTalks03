@@ -1,10 +1,12 @@
 <template>
   <div>
-    <BlogCards
-      :blogs="blogs"
-      :section="name"
-      :noofblogs="noOfBlogs"
-    />
+    <article>
+      <BlogCards
+        :blogs="blogs"
+        :section="name"
+        :noofblogs="noOfBlogs"
+      />
+    </article>
   </div>
 </template>
 

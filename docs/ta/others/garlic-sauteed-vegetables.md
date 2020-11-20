@@ -9,6 +9,13 @@ title: 'கார்லிக் சாடீட் வெஜிட்டபி�
 altLang: true
 ---
 <img src="/others/garlic-sauteed-vegetables/_thumbnail.png" alt="alt text" class="blogs_image">
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 ## தேவையான பொருட்கள் 
 

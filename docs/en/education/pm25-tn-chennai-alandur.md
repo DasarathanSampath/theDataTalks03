@@ -13,6 +13,13 @@ title: "Air Pollution data - Tamil Nadu; Station: Alandur Bus Depot, Chennai - C
 trans: 'pm25-tn-chennai-alandur'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 Tamil Nadu has 5 stations for continuous monitoring of air pollution.
 Out of which 4 stations are in Chennai and one station in Coimbatore. This document talks about PM2.5 (Particulate matter (PM) that have a diameter of fewer than 2.5 micrometers) level for one of the station

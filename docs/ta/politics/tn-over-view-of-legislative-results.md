@@ -7,6 +7,13 @@ noMainImage: True
 title: தமிழ் நாடு சட்டமன்ற பொதுத் தேர்தல் முடிவுகள் - ஒரு பார்வை
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 ### ஆட்சி புரிந்த கட்சிகள்:
 

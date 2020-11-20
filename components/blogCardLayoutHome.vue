@@ -27,6 +27,7 @@
             </nuxt-link>
           </li>
         </div>
+
         <div>
           <li v-for="blog in blogs.slice(politics,politics+economics)" :key="blog.name" :blog="blog" class="blogList">
             <nuxt-link :to="$i18n.path(`economics/${blog.name}`)" class="nuxtLink">

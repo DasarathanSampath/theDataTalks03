@@ -12,6 +12,13 @@ title: Political Spectrum
 trans: அரசியல்-ஸ்பெக்ட்ரம்
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The political term Left & Right refers to the 17th-century seating arrangement in the French Estates-General.
 

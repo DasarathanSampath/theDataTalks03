@@ -1,14 +1,16 @@
 <template>
   <div>
-    <BlogCards
-      :blogs="results"
-      :section="name"
-      :noofblogs="noOfBlogs"
-      :politics="blogsPoliticsLength"
-      :economics="blogsEconomicsLength"
-      :education="blogsEducationLength"
-      :others="blogsOthersLength"
-    />
+    <article>
+      <BlogCards
+        :blogs="results"
+        :section="name"
+        :noofblogs="noOfBlogs"
+        :politics="blogsPoliticsLength"
+        :economics="blogsEconomicsLength"
+        :education="blogsEducationLength"
+        :others="blogsOthersLength"
+      />
+    </article>
   </div>
 </template>
 
@@ -112,6 +114,11 @@ export default {
         }
       }
     },
+    /* mounted: {
+      googleAnalytics () {
+        return this.$config.googleAnalytics.id
+      }
+    }, */
     head () {
       return {
         title: this.pageTitle,

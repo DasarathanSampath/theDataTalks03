@@ -8,6 +8,13 @@ title: Reinvestment Deposit Scheme
 altLang: true
 author: K. Sampath, Kanchipuram
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 Click here for [Compound Interest Calculator](http://thedatatalks.in/custom/economics/compound-interest)  
 Click here for [Recurring Deposit Calculator](http://thedatatalks.in/custom/economics/recurring-deposit)

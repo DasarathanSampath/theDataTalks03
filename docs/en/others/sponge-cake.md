@@ -9,6 +9,13 @@ title: 'Sponge Cake'
 altLang: true
 ---
 <img src="/others/sponge-cake/_thumbnail.png" alt="alt text" class="blogs_image">
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 **Ingredients:**
 

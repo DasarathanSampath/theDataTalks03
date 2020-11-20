@@ -13,6 +13,13 @@ title: Legislative assembly - Tamil Nadu
 trans: 'தமிழ்-நாடு-வாக்குப்-பங்கு-மற்றும-வளர்ச்சி'
 altLang: true
 ---
+<div>
+    <adsbygoogle />
+</div>
+<Adsense
+          data-ad-client="ca-pub-3042269102042405"
+          data-ad-slot="1234567890"
+/>
 
 The two major state parties AIADMK (All India Anna Dravida Munnetra
 Kazhagam) & DMK (Dravida Munnetra Kazhagam) and the two national parties
